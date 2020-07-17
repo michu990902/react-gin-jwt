@@ -1,0 +1,11 @@
+.menuItem{
+    padding: 10px;
+    &Link{
+        text-decoration: none;
+        color: var(--menu-color);
+    }
+    &Active{
+        font-weight: bold;
+        color: var(--menu-active-color);
+    }
+}

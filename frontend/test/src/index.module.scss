@@ -1,0 +1,19 @@
+*,*::before,*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --bg-color1: #000;
+    --font-color1: #fff;
+    --menu-color: #33f;
+    --menu-active-color: #f00;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 16px;
+    background: var(--bg-color1);
+    color: var(--font-color1);
+}
